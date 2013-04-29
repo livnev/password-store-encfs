@@ -14,7 +14,7 @@ ENCFS_DIR="${ENCFS_STORE_DIR:-$HOME/.password-store.encfs}"
 # Attempt to mount encFS, or leave it to the user:
 ENCFS_AUTO=true
 # Mount encfs with --idle option, so unmount after this many minutes of inactivity, 0 if mounted indefinitely:
-ENCFS_IDLE_TIME=5
+ENCFS_IDLE_TIME=0
 
 export GIT_DIR
 export GIT_WORK_TREE="${PASSWORD_STORE_GIT:-$PREFIX}"
